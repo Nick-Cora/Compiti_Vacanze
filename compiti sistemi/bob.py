@@ -1,6 +1,6 @@
 def bob(string):
 
-    if string.endswith("?"):
+    if string[-1] == "?":
 
         if string.isupper():
             return "Calm down, I know what I'm doing!"
@@ -19,7 +19,7 @@ def bob(string):
         return "Whatever."
 
 def main():
-    question = input("> ")
+    question = input("")
 
     print(bob(question))
     
