@@ -1,6 +1,6 @@
 import random
 import string
-string.ascii_uppercase
+
 
 def robotName():
     stringName = ""
